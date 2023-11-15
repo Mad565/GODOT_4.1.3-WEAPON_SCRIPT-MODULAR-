@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqb46nv61j4fj"]
+
+[ext_resource type="Texture2D" uid="uid://c8k32gssuxv4r" path="res://icon.svg" id="1_13oy6"]
+
+[node name="decal" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+
+[node name="Decal" type="Decal" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0)
+size = Vector3(0.2, 0.2, 0.2)
+texture_albedo = ExtResource("1_13oy6")
